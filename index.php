@@ -34,7 +34,7 @@ $_SESSION["controllerpassword"] = $response->controllerpassword;
 $_SESSION["controllerurl"] = $response->controllerurl;
 $_SESSION["color_boton_index"] = $response->color_boton_index;
 
-// $ip_server = "http://192.168.200.250/";
+// $ip_server = "http://13.61.143.74/";
 ?>
 <!DOCTYPE html>
 <html lang="en">
