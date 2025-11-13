@@ -53,7 +53,7 @@ curl_close($curl);
     <meta charset="utf-8" />
     <title><?= $locacion?></title>
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta http-equiv="refresh" content="1;url=<?= $url ?>" />
+    <meta http-equiv="refresh" content="0.5;url=<?= $url ?>" />
     <link href="<?= $ip_server ?>assets/css/vendor.min.css" rel="stylesheet" />
     <link href="<?= $ip_server ?>assets/css/apple/app.min.css" rel="stylesheet" />
     <script src="<?= $ip_server ?>assets/plugins/ionicons/dist/ionicons/ionicons.js"></script>
