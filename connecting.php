@@ -67,7 +67,7 @@ curl_close($curl);
             <div class="error-code" style="background-color: #000000;">
                 <div class="brand" style="text-align: center;">
                     <div class="align-items-center">
-                        <center><img src="<?= $ip_server ?>assets/logo.svg" width="300px" height="200px" /></center>
+                        <center><img src="<?= $ip_server ?>/assets/logo.svg" width="300px" height="200px" /></center>
                     </div>
                 </div>
             </div>
