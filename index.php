@@ -99,7 +99,7 @@ if ($response_data) {
                     </div>
                 </div>
                 <div class="login-content">
-                    <form method="post" name="form_name" id="form_id" action="http://<?= $ip_server ?>/connecting.php">
+                    <form method="post" name="form_name" id="form_id" action="<?= $ip_server ?>/connecting.php">
                         <div class="form-floating mb-20px">
                             <input type="text" class="form-control fs-13px h-45px border-0" placeholder="Nombre" name="nombre" required />
                             <label for="nombre" class="d-flex align-items-center text-gray-600 fs-13px">Nombre</label>
