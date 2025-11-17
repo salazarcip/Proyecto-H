@@ -54,9 +54,9 @@ curl_close($curl);
     <title><?= $locacion?></title>
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="refresh" content="3;url=<?= $url ?>" />
-    <link href="<?= $ip_server ?>assets/css/vendor.min.css" rel="stylesheet" /> 
-    <link href="<?= $ip_server ?>assets/css/apple/app.min.css" rel="stylesheet" />
-    <script src="<?= $ip_server ?>assets/plugins/ionicons/dist/ionicons/ionicons.js"></script>
+    <link href="<?= $ip_server ?>/assets/css/vendor.min.css" rel="stylesheet" /> 
+    <link href="<?= $ip_server ?>/assets/css/apple/app.min.css" rel="stylesheet" />
+    <script src="<?= $ip_server ?>/assets/plugins/ionicons/dist/ionicons/ionicons.js"></script>
 </head>
 <body class='pace-top'>
     <div id="loader" class="app-loader">
@@ -77,7 +77,7 @@ curl_close($curl);
         </div>
         <a href="javascript:;" class="btn btn-icon btn-circle btn-theme btn-scroll-to-top" data-toggle="scroll-to-top"><i class="fa fa-angle-up"></i></a>
     </div>
-    <script src="<?= $ip_server ?>assets/js/vendor.min.js"></script>
-    <script src="<?= $ip_server ?>assets/js/app.min.js"></script>
+    <script src="<?= $ip_server ?>/assets/js/vendor.min.js"></script>
+    <script src="<?= $ip_server ?>/assets/js/app.min.js"></script>
 </body>
 </html>
