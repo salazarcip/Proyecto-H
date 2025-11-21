@@ -1,16 +1,14 @@
 # .htaccess
 <IfModule mod_rewrite.c>
-    # 1. Activa el motor de reescritura de URLs de Apache.
+    # Activa el motor de reescritura
     RewriteEngine On
-
-    # 2. Condición: NO es un archivo real. (Permite cargar /assets/css, /assets/js, etc.)
+    
+    # Si el recurso solicitado NO es un archivo existente
     RewriteCond %{REQUEST_FILENAME} !-f
-
-    # 3. Condición: NO es un directorio real.
+    
+    # Y si el recurso solicitado NO es un directorio existente
     RewriteCond %{REQUEST_FILENAME} !-d
-
-    # 4. Regla: Redirige cualquier otra solicitud (^) a index.php.
-    # [QSA] Query String Append: Muy importante, conserva los parámetros GET (?id=MAC&ap=AP_MAC) que envía UniFi.
-    # [L] Last: Termina de procesar las reglas aquí.
+    
+    # Redirige cualquier URL a index.php, conservando los parámetros GET de UniFi (QSA)
     RewriteRule ^ index.php [QSA,L]
 </IfModule>
